@@ -1,0 +1,10 @@
+a;b;c;d;e;f;g;h;i;j
+a:g
+g:h,i
+h:j
+i:j,k
+j:f
+b:c,d
+c:e
+d:e
+e:f
