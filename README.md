@@ -8,22 +8,28 @@ executed in sequential order. An arbitrary set of nodes can be executed in paral
 with each other. The goal is to identify all the nodes that can be executed in parallel.
 
 
+
 ---- How to build and run on Linux ----
 
 Clone the project from GitHub.
+
  $ git clone https://github.com/skincso/ParallelJobScheduling.git
 
 Create build directory
+
  $ mkdir pjs_build
 
 Generate Makefile in the build directory, and build the project.
+
  $ cd pjs_build
  $ cmake ..
  $ make
 
 Run the program by navigating to src/ and run ./PJS.
+
  $ cd src/
  $ ./PJS
+
 
 
 ---- Input file format ----
@@ -35,9 +41,11 @@ From the second line, there should be the node where the edges start from, and a
 the nodes where the edges go, separated by comma (,).
 
 For example:
+
 A;B;C;D
 A:B
 B:C,D
+
 
 Where A, B, C and D are the nodes.
 There are edges from A to B, B to C, and B to D.
