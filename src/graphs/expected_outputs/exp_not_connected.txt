@@ -1,0 +1,6 @@
+Depth	Independent nodes
+1	1 9 10 
+2	2 3 11 12 
+3	4 5 6 
+4	7 
+5	8 
